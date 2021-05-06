@@ -1,8 +1,18 @@
+import Footer from "components/Footer";
+import NavBar from "components/NavBar";
+import Datatable from "components/Datatable";
+
+
+
 function App() {
   return (
-    <div>
-      <h1 className="text-primary">Foda-se</h1>
-    </div>
+    <>
+      <NavBar></NavBar>
+      <div className="container">
+        <Datatable></Datatable>
+      </div>
+      <Footer></Footer>
+    </>
   );
 }
 
